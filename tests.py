@@ -6,7 +6,7 @@ class DesTests(unittest.TestCase):
         self.assertTrue(True)
 
     def autreTest(self):
-        self.assertEquals(3, 3)
+        self.assertEquals(3, 4)
 
 
 if __name__ == '__main__':

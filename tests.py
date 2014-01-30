@@ -2,10 +2,11 @@ import unittest
 
 
 class DesTests(unittest.TestCase):
+    #test
     def test(self):
         self.assertTrue(True)
 
-    def autreTest(self):
+    def autre_test(self):
         self.assertEquals(3, 3)
 
 

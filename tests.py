@@ -1,4 +1,3 @@
-# coding=utf-8
 from teamcity import is_running_under_teamcity
 from teamcity.unittestpy import TeamcityTestRunner
 
@@ -7,7 +6,7 @@ import unittest
 
 class TestTeamcityMessages(unittest.TestCase):
     def test_pass(self):
-        assert 1 == 1
+        self.assertTrue(1 == 1)
 
     def test_true(self):
         self.assertTrue(True)

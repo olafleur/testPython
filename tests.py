@@ -13,7 +13,7 @@ class TestTeamcityMessages(unittest.TestCase):
         self.assertTrue(True)
 
     def test_false(self):
-        self.assertFalse(True);
+        self.assertFalse(False)
 
 
 if __name__ == '__main__':

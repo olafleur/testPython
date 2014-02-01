@@ -1,6 +1,6 @@
 # coding=utf-8
-from teamcity-messages import is_running_under_teamcity
-from teamcity-messages.unittestpy import TeamcityTestRunner
+from teamcity import is_running_under_teamcity
+from teamcity.unittestpy import TeamcityTestRunner
 
 import unittest
 

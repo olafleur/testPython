@@ -12,6 +12,9 @@ class TestTeamcityMessages(unittest.TestCase):
     def test_true(self):
         self.assertTrue(True)
 
+    def test_false(self):
+        self.assertFalse(True);
+
 
 if __name__ == '__main__':
     if is_running_under_teamcity():
